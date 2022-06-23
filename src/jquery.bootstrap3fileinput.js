@@ -66,16 +66,7 @@ Based on previous work of:
 
                 $(self)
                     .css({
-                        'opacity': 0,
-                        'position': 'absolute',
-                        'border': 'none',
-                        'margin': 0,
-                        'padding': 0,
-                        'top': 0,
-                        'right': 0,
-                        'cursor': 'pointer',
-                        'height': '0.1px',
-                        'width': '0.1px'
+                        'display': 'none'
                     });
 
                 $(self).on("change", function (e) {
