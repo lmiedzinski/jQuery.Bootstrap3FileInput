@@ -29,3 +29,9 @@ jobs:
         uses: nizarmah/auto-minify@v2.1.1
         with:
           directory: src
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: jQuery.Bootstrap3FileInput.min.js
+          path: jquery.bootstrap3fileinput.min.js
