@@ -19,7 +19,6 @@ jobs:
         uses: nizarmah/auto-minify@v2.1.1
         with:
           directory: src
-          overwrite: true
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
